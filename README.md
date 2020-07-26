@@ -54,7 +54,7 @@ Then use them in your views like:
 
 ### Blade icons 
 
-Blade Github octicons uses blade icons under the hood. Please refer to [the Blade icons readme](https://github.com/driesvints/blade-icons/blob/master/README.md) for additional
+Blade Github octicons uses blade icons under the hood. Please refer to [the Blade icons readme](https://github.com/blade-ui-kit/blade-icons) for additional
 functionality.
 
 ## Testing 
