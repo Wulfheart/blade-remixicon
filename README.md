@@ -1,7 +1,5 @@
 # Blade Remixicon 
 
-**Package is still under development.**
-
 A package to easily make use of [Remixicon](https://remixicon.com/) in your Laravel Blade views. 
 
 For a full list of available icons see the [the project's website](https://remixicon.com/).
