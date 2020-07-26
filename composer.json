@@ -1,0 +1,38 @@
+{
+  "name": "wulfheart/blade-remixicon",
+  "type": "library",
+  "description":"A package to easily make use of Remixicon in your Laravel blade views.",
+  "license": "MIT",
+  "require": {
+    "php": "^7.2",
+    "blade-ui-kit/blade-icons": "^0.4.3",
+    "illuminate/support": "^7.14"
+  },
+  "require-dev": {
+    "orchestra/testbench": "^5.0",
+    "phpunir/phpunit": "^8.0|^9.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "wulfheart\\BladeRemixicon\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "wulfheart\\BladeRemixicon\\Tests\\": "tests/"
+    }
+  },
+  "scripts": {},
+  "extra": {
+    "laravel": {
+      "providers": [
+        "wulfheart\\BladeRemixicon\\RemixiconServiceProvider"
+      ]
+    }
+  },
+  "config": {
+    "sort-packages": true
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
+}
